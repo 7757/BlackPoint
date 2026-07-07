@@ -240,6 +240,7 @@ html[lang="zh-CN"] h1 {
 
 .hero-visual {
   position: relative;
+  min-height: 590px;
 }
 
 .hero-visual::before {
@@ -252,14 +253,27 @@ html[lang="zh-CN"] h1 {
   filter: blur(24px);
 }
 
-.hero-visual img {
+.hero-shot {
   position: relative;
   display: block;
-  width: min(100%, 680px);
+  width: min(62%, 390px);
   height: auto;
+  border-radius: 30px;
+  filter: drop-shadow(0 34px 80px rgba(28, 36, 58, 0.24));
+}
+
+.hero-shot-empty {
   margin-left: auto;
-  border-radius: 34px;
-  filter: drop-shadow(0 34px 80px rgba(28, 36, 58, 0.20));
+  margin-right: 84px;
+  transform: translateY(-28px) rotate(-2deg);
+}
+
+.hero-shot-list {
+  position: absolute;
+  right: -6px;
+  bottom: 18px;
+  width: min(58%, 365px);
+  transform: rotate(1.5deg);
 }
 
 .strip,
@@ -468,17 +482,41 @@ kbd {
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 22px;
+  gap: 12px 22px;
   padding: 76px 20px 42px;
   color: var(--muted);
   font-size: 13px;
   font-weight: 640;
 }
 
-.footer span {
+.footer-brand {
   color: var(--text);
+}
+
+.footer-author,
+.footer-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-author {
+  padding: 7px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.54);
+}
+
+.footer a {
+  transition: color 140ms ease, transform 140ms ease;
+}
+
+.footer a:hover {
+  color: var(--text);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 900px) {
@@ -517,8 +555,24 @@ kbd {
     padding-top: 118px;
   }
 
-  .hero-visual img {
+  .hero-visual {
+    min-height: 500px;
+  }
+
+  .hero-shot {
+    width: min(76%, 300px);
+  }
+
+  .hero-shot-empty {
     margin: 0 auto;
+    transform: translateX(-22px) rotate(-2deg);
+  }
+
+  .hero-shot-list {
+    right: 18px;
+    bottom: 20px;
+    width: min(64%, 252px);
+    transform: rotate(1.5deg);
   }
 
   .feature-grid {
@@ -555,5 +609,18 @@ kbd {
 
   .language-picker button {
     width: 29px;
+  }
+
+  .hero-visual {
+    min-height: 470px;
+  }
+
+  .hero-shot {
+    width: min(74%, 286px);
+  }
+
+  .hero-shot-list {
+    right: 18px;
+    width: min(58%, 226px);
   }
 }

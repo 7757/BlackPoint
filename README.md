@@ -10,6 +10,13 @@ BlackPoint is a compact macOS menu bar utility for stowing distracting apps with
 
 It hides selected apps, keeps them out of the normal switching flow, and restores them when you need them again.
 
+## Preview
+
+<p>
+  <img src="docs/assets/blackpoint-stowed-empty.png" alt="BlackPoint empty stowed view" width="360">
+  <img src="docs/assets/blackpoint-stowed-list.png" alt="BlackPoint stowed app list" width="360">
+</p>
+
 ## Install
 
 ```sh

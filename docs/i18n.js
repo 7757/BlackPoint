@@ -37,6 +37,7 @@ window.BLACKPOINT_I18N = {
     "changelog.title": "BlackPoint 0.1.0",
     "changelog.first.title": "Initial public release",
     "changelog.first.body": "Menu bar controls, global shortcuts, launch at login, localization, release packaging, and the GitHub Pages website.",
+    "footer.author": "Author",
     "footer.github": "GitHub",
     "footer.license": "MIT License"
   },
@@ -78,6 +79,7 @@ window.BLACKPOINT_I18N = {
     "changelog.title": "BlackPoint 0.1.0",
     "changelog.first.title": "首次公开发布",
     "changelog.first.body": "包含菜单栏控制、全局快捷键、开机启动、本地化、发布打包和 GitHub Pages 官网。",
+    "footer.author": "作者",
     "footer.github": "GitHub",
     "footer.license": "MIT 许可证"
   }

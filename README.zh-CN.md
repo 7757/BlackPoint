@@ -4,6 +4,13 @@
 
 BlackPoint 是一个紧凑的 macOS 菜单栏工具，用来把暂时不需要的应用安静收起，而不是退出它们。
 
+## 预览
+
+<p>
+  <img src="docs/assets/blackpoint-stowed-empty.png" alt="BlackPoint 空状态" width="360">
+  <img src="docs/assets/blackpoint-stowed-list.png" alt="BlackPoint 已收起列表" width="360">
+</p>
+
 ## 安装
 
 ```sh
