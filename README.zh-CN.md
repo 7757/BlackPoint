@@ -1,6 +1,6 @@
 # BlackPoint
 
-[English](README.md) · **简体中文** · [日本語](README.ja.md) · [한국어](README.ko.md)
+[English](README.md) · **简体中文**
 
 BlackPoint 是一个紧凑的 macOS 菜单栏工具，用来把暂时不需要的应用安静收起，而不是退出它们。
 

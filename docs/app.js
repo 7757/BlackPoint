@@ -1,4 +1,4 @@
-const supportedLanguages = ["en", "zh", "ja", "ko"];
+const supportedLanguages = ["en", "zh"];
 const installCommand = "curl -fsSL https://7757.github.io/BlackPoint/install.sh | bash";
 
 function pickInitialLanguage() {
@@ -7,8 +7,6 @@ function pickInitialLanguage() {
 
   const language = navigator.language.toLowerCase();
   if (language.startsWith("zh")) return "zh";
-  if (language.startsWith("ja")) return "ja";
-  if (language.startsWith("ko")) return "ko";
   return "en";
 }
 

@@ -1,6 +1,6 @@
 # BlackPoint
 
-**English** · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+**English** · [简体中文](README.zh-CN.md)
 
 [![Release](https://img.shields.io/github/v/release/7757/BlackPoint?style=flat-square)](https://github.com/7757/BlackPoint/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/7757/BlackPoint/total?style=flat-square)](https://github.com/7757/BlackPoint/releases)
@@ -26,7 +26,7 @@ You can also download the latest zip from [GitHub Releases](https://github.com/7
 - Optionally skip stowed apps while switching with `Command + Tab`.
 - Configure global shortcuts for every action.
 - Launch at login through Apple's `SMAppService`.
-- Use the app in English, Simplified Chinese, Japanese, or Korean website documentation, with English and Simplified Chinese in-app localization.
+- Use the app and website in English or Simplified Chinese.
 
 ## Shortcuts
 
