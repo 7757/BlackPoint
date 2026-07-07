@@ -36,6 +36,7 @@ async function updateStats() {
       const total = releases.flatMap((release) => release.assets || [])
         .reduce((sum, asset) => sum + (asset.download_count || 0), 0);
       document.querySelector("[data-downloads]").textContent = String(total);
+      document.querySelector("[data-downloads-wrap]").hidden = false;
     }
   } catch {
   }
